@@ -1,0 +1,58 @@
+/* Typography */
+$font-family-open-sans: 'Open Sans', sans-serif;
+$font-family-poppins: 'Poppins', sans-serif;
+$font-family: $font-family-open-sans;
+$font-size: 13px;
+
+/* Colors */
+$primary: #0084ff;
+$success: #5cb85c;
+$warning: #f0ad4e;
+$danger: #d9534f;
+$primary-text-color: #001A33;
+$dark-grey: #333;
+$grey: #555;
+$light-grey: #777;
+$very-light-grey: #ddd;
+$input-bg-color: white;
+$disabled-text-color: #c4c4c4;
+
+/* Borders */
+$border-radius: 8px;
+
+/* Grid spaces */
+$grid-space-1: 5px;
+$grid-space-2: 10px;
+$grid-space-3: 15px;
+$grid-space-4: 20px;
+$grid-space-5: 30px;
+$grid-space-6: 40px;
+$grid-space-7: 50px;
+$grid-space-8: 60px;
+
+$grid-spaces: (
+  1: $grid-space-1,
+  2: $grid-space-2,
+  3: $grid-space-3,
+  4: $grid-space-4,
+  5: $grid-space-5,
+  6: $grid-space-6,
+  7: $grid-space-7,
+  8: $grid-space-8
+);
+
+/* Outlines */
+$outline-primary-color: #fff;
+$outline-primary-bg: $primary;
+$outline-primary-border: $primary;
+
+$outline-secondary-color: $primary;
+$outline-secondary-bg: #fff;
+$outline-secondary-border: $outline-secondary-color;
+
+$outline-default-color: #333;
+$outline-default-bg: #fff;
+$outline-default-border: #ccc;
+
+$outline-blank-color: #333;
+$outline-blank-bg: #fff;

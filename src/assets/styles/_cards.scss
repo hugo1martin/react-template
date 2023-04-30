@@ -1,0 +1,21 @@
+.card {
+  @include outline-default;
+
+  height: fit-content;
+  max-width: 50%;
+  min-width: 25%;
+  border-radius: 16px;
+  padding: $grid-space-5;
+
+  &.primary {
+    @include outline-primary;
+  }
+
+  &.secondary {
+    @include outline-secondary;
+  }
+
+  &.blank {
+    @include outline-blank;
+  }
+}

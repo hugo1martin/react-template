@@ -1,0 +1,63 @@
+@mixin outline-default {
+  color: $outline-default-color;
+  background-color: $outline-default-bg;
+  border: 2px solid $outline-default-border;
+  box-shadow: 0px 0px 8px rgba(0, 26, 51, 0.1);
+}
+
+@mixin outline-primary {
+  color: $outline-primary-color;
+  background-color: $outline-primary-bg;
+  border: 2px solid $outline-primary-border;
+  box-shadow: 0px 0px 8px rgba(0, 26, 51, 0.1);
+}
+
+@mixin outline-secondary {
+  color: $outline-secondary-color;
+  background-color: $outline-secondary-bg;
+  border: 2px solid $outline-secondary-border;
+  box-shadow: 0px 0px 8px rgba(0, 26, 51, 0.1);
+}
+
+@mixin outline-blank {
+  color: $outline-blank-color;
+  background-color: $outline-blank-bg;
+  border: none;
+  box-shadow: 0px 0px 8px rgba(0, 26, 51, 0.1);
+}
+
+@mixin active-outline-default {
+  @include outline-default;
+
+  &:disabled {
+    background-color: darken($outline-default-bg, 5%);
+  }
+
+  &:hover:not([disabled]) {
+    background-color: darken($outline-default-bg, 5%);
+  }
+}
+
+@mixin active-outline-primary {
+  @include outline-primary;
+
+  &:disabled {
+    background-color: darken($outline-primary-bg, 5%);
+  }
+
+  &:hover:not([disabled]) {
+    background-color: darken($outline-primary-bg, 5%);
+  }
+}
+
+@mixin active-outline-secondary {
+  @include outline-secondary;
+
+  &:disabled {
+    background-color: darken($outline-secondary-bg, 5%);
+  }
+
+  &:hover:not([disabled]) {
+    background-color: darken($outline-secondary-bg, 5%);
+  }
+}

@@ -1,6 +1,6 @@
 import Layout from '../components/layout/layout';
 
-function DesignSystem () {
+function DesignSystem() {
   return (
     <Layout>
       <h1>Heading 1</h1>
@@ -59,6 +59,8 @@ function DesignSystem () {
           </p>
         </div>
       </div>
+
+      <input></input>
 
       <div>
         <a>Clickable link</a>

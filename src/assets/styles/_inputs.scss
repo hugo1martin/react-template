@@ -1,11 +1,9 @@
 input {
   height: 40px;
   width: 250px;
-  border: 1px solid #7A8085;
+  border: 2px solid $very-light-grey;
   border-radius: $border-radius;
-  background-color: $input-bg-color;
   text-indent: 10px;
-  margin: $grid-space-2 0;
 
   &.thin {
     height: 25px;

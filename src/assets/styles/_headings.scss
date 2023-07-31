@@ -6,7 +6,7 @@ h5,
 h6 {
   font-weight: bold;
   font-family: $font-family-poppins;
-  color: $primary-text-color;
+  color: var(--text-color);
   padding-bottom: $grid-space-3;
 }
 

@@ -5,7 +5,7 @@ $font-family: $font-family-open-sans;
 $font-size: 16px;
 
 /* Colors */
-$primary-color: #52c5f2;
+$primary-color: #29a3d9;
 $secondary-color: #f0ad4e;
 $default-color: #333;
 $text-color: #333;
@@ -38,19 +38,3 @@ $grid-spaces: (
   7: $grid-space-7,
   8: $grid-space-8,
 );
-
-/* Outlines */
-$outline-primary-color: #fff;
-$outline-primary-bg: $primary-color;
-$outline-primary-border: $primary-color;
-
-$outline-secondary-color: $primary-color;
-$outline-secondary-bg: #fff;
-$outline-secondary-border: $outline-secondary-color;
-
-$outline-default-color: $default-color;
-$outline-default-bg: #fff;
-$outline-default-border: #ccc;
-
-$outline-blank-color: $default-color;
-$outline-blank-bg: #fff;

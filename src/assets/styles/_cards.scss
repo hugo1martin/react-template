@@ -1,5 +1,5 @@
 .card {
-  @include outline-default;
+  @include default-style;
 
   height: fit-content;
   max-width: 50%;
@@ -8,14 +8,26 @@
   padding: $grid-space-5;
 
   &.primary {
-    @include outline-primary;
+    @include primary-style;
   }
 
   &.secondary {
-    @include outline-secondary;
+    @include secondary-style;
   }
 
-  &.blank {
-    @include outline-blank;
+  &.default-inverse {
+    @include default-style-inverse;
+  }
+
+  &.primary-inverse {
+    @include primary-style-inverse;
+  }
+
+  &.secondary-inverse {
+    @include secondary-style-inverse;
+  }
+
+  &.default-no-border {
+    @include default-no-border;
   }
 }

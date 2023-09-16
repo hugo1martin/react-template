@@ -1,6 +1,4 @@
 .button {
-  @include active-outline-default;
-
   width: fit-content;
   padding: 5px 10px;
   font-family: $font-family-poppins;
@@ -12,15 +10,31 @@
     padding: 9px 18px;
   }
 
+  &.default {
+    @include active-default-style;
+  }
+
   &.primary {
-    @include active-outline-primary;
+    @include active-primary-style;
   }
 
   &.secondary {
-    @include active-outline-secondary;
+    @include active-secondary-style;
   }
 
-  &.blank {
-    @include outline-blank;
+  &.default-inverse {
+    @include active-default-style-inverse;
+  }
+
+  &.primary-inverse {
+    @include active-primary-style-inverse;
+  }
+
+  &.secondary-inverse {
+    @include active-secondary-style-inverse;
+  }
+
+  &.default-no-border {
+    @include active-default-no-border;
   }
 }

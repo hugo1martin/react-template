@@ -5,17 +5,15 @@ $font-family: $font-family-open-sans;
 $font-size: 16px;
 
 /* Colors */
-$primary-color: #007bff;
-$secondary-color: #6c757d;
+$primary-color: #52c5f2;
+$secondary-color: #f0ad4e;
+$default-color: #333;
 $text-color: #333;
+$disabled-text-color: #c4c4c4;
 $success: #5cb85c;
 $warning: #f0ad4e;
 $danger: #d9534f;
-$dark-grey: #333;
-$grey: #555;
-$light-grey: #777;
-$very-light-grey: #ddd;
-$disabled-text-color: #c4c4c4;
+$very-light-grey: #f5f5f5;
 
 /* Borders */
 $border-radius: 8px;
@@ -50,9 +48,9 @@ $outline-secondary-color: $primary-color;
 $outline-secondary-bg: #fff;
 $outline-secondary-border: $outline-secondary-color;
 
-$outline-default-color: #333;
+$outline-default-color: $default-color;
 $outline-default-bg: #fff;
 $outline-default-border: #ccc;
 
-$outline-blank-color: #333;
+$outline-blank-color: $default-color;
 $outline-blank-bg: #fff;

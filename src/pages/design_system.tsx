@@ -1,4 +1,4 @@
-import Layout from '../components/layout/layout';
+import Layout from "../components/layout/layout";
 
 function DesignSystem() {
   return (
@@ -7,55 +7,55 @@ function DesignSystem() {
       <h2>Heading 2</h2>
       <h3>Heading 3</h3>
 
-      <div className='v-space-4'>
-        <button className='button primary right-space-2'>Primary</button>
-        <button className='button secondary right-space-2'>Secondary</button>
-        <button className='button default right-space-2'>Default</button>
-        <button className='button blank right-space-2'>Default</button>
+      <div className="v-space-4">
+        <button className="button primary right-space-2">Primary</button>
+        <button className="button secondary right-space-2">Secondary</button>
+        <button className="button default right-space-2">Default</button>
+        <button className="button blank right-space-2">Default</button>
       </div>
 
-      <div className='v-space-4'>
-        <div className='card primary bottom-space-2'>
+      <div className="v-space-4">
+        <div className="card primary bottom-space-2">
           <h3>Card Primary</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptatum, quibusdam, quia, quod voluptates voluptatem quos
-            voluptatibus quae doloribus quas natus. Quisquam voluptatum, quibusdam,
-            quia, quod voluptates voluptatem quos voluptatibus quae doloribus quas
-            natus.
+            voluptatibus quae doloribus quas natus. Quisquam voluptatum,
+            quibusdam, quia, quod voluptates voluptatem quos voluptatibus quae
+            doloribus quas natus.
           </p>
         </div>
 
-        <div className='card secondary bottom-space-2'>
-          <h3>Card Primary</h3>
+        <div className="card secondary bottom-space-2">
+          <h3>Card Secondary</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptatum, quibusdam, quia, quod voluptates voluptatem quos
-            voluptatibus quae doloribus quas natus. Quisquam voluptatum, quibusdam,
-            quia, quod voluptates voluptatem quos voluptatibus quae doloribus quas
-            natus.
+            voluptatibus quae doloribus quas natus. Quisquam voluptatum,
+            quibusdam, quia, quod voluptates voluptatem quos voluptatibus quae
+            doloribus quas natus.
           </p>
         </div>
 
-        <div className='card default bottom-space-2'>
-          <h3>Card Primary</h3>
+        <div className="card default bottom-space-2">
+          <h3>Card Default</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptatum, quibusdam, quia, quod voluptates voluptatem quos
-            voluptatibus quae doloribus quas natus. Quisquam voluptatum, quibusdam,
-            quia, quod voluptates voluptatem quos voluptatibus quae doloribus quas
-            natus.
+            voluptatibus quae doloribus quas natus. Quisquam voluptatum,
+            quibusdam, quia, quod voluptates voluptatem quos voluptatibus quae
+            doloribus quas natus.
           </p>
         </div>
 
-        <div className='card blank bottom-space-2'>
-          <h3>Card Primary</h3>
+        <div className="card blank bottom-space-2">
+          <h3>Card Blank</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptatum, quibusdam, quia, quod voluptates voluptatem quos
-            voluptatibus quae doloribus quas natus. Quisquam voluptatum, quibusdam,
-            quia, quod voluptates voluptatem quos voluptatibus quae doloribus quas
-            natus.
+            voluptatibus quae doloribus quas natus. Quisquam voluptatum,
+            quibusdam, quia, quod voluptates voluptatem quos voluptatibus quae
+            doloribus quas natus.
           </p>
         </div>
       </div>
@@ -67,7 +67,7 @@ function DesignSystem() {
       </div>
 
       <div>
-        <a className='default'>Default clickable link</a>
+        <a className="default">Default clickable link</a>
       </div>
     </Layout>
   );

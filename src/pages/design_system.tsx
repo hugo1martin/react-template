@@ -104,13 +104,13 @@ function DesignSystem() {
         </p>
       </div>
 
-      <input></input>
+      <input className="bottom-space-2"></input>
 
-      <div>
+      <div className="bottom-space-2">
         <a>Clickable link</a>
       </div>
 
-      <div>
+      <div className="bottom-space-2">
         <a className="default">Default clickable link</a>
       </div>
     </Layout>

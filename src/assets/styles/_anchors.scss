@@ -1,14 +1,14 @@
 a {
-    color: var(--primary);
-    text-decoration: underline;
-    cursor: pointer;
+  color: $primary-color;
+  text-decoration: underline;
+  cursor: pointer;
 
-    &.default {
-        color: initial;
-        text-decoration: none;
+  &.default {
+    color: initial;
+    text-decoration: none;
 
-        &:hover {
-            text-decoration: underline;
-        }
+    &:hover {
+      text-decoration: underline;
     }
+  }
 }

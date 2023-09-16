@@ -1,17 +1,13 @@
 /* Typography */
-$font-family-open-sans: 'Open Sans', sans-serif;
-$font-family-poppins: 'Poppins', sans-serif;
+$font-family-open-sans: "Open Sans", sans-serif;
+$font-family-poppins: "Poppins", sans-serif;
 $font-family: $font-family-open-sans;
 $font-size: 16px;
 
-:root {
-  --primary: red;
-  --secondary: green;
-  --accent: blue;
-  --text-color: black;
-}
-
 /* Colors */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$text-color: #333;
 $success: #5cb85c;
 $warning: #f0ad4e;
 $danger: #d9534f;
@@ -42,15 +38,15 @@ $grid-spaces: (
   5: $grid-space-5,
   6: $grid-space-6,
   7: $grid-space-7,
-  8: $grid-space-8
+  8: $grid-space-8,
 );
 
 /* Outlines */
 $outline-primary-color: #fff;
-$outline-primary-bg: var(--primary);
-$outline-primary-border: var(--primary);
+$outline-primary-bg: $primary-color;
+$outline-primary-border: $primary-color;
 
-$outline-secondary-color: var(--primary);
+$outline-secondary-color: $primary-color;
 $outline-secondary-bg: #fff;
 $outline-secondary-border: $outline-secondary-color;
 
